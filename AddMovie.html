@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Add movie </title>
+<meta name="description" content="Add movie">
+<meta charset="utf-8">
+<link rel="stylesheet" href="./css/reset.css" />
+<link rel ="stylesheet" href="./css/movie.css"/>
+<link rel ="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300"/>
+</head>
+<body>
+
+  <header>
+    <img class="logo fleft" src="images/projector-logo.png" alt="logo"/>
+
+    <nav>
+      <ul class="fright" >
+        <li> <a href="#">Home </a></li>
+        <li> <a href="#">Add movie</a></li>
+      </ul>
+
+    </nav>
+    </header>
+    <div class="clearfix"> </div>
+
+
+    <form class="add_movie_form" action="/sample-action">
+        <h2> Add a movie </h2>
+      <ul>
+        <li>
+          <label for= "Movie name" > Movie name </label>
+          <input id="Movie name" type="text" name="Movie-name"/>
+        </li>
+
+        <li>
+          <label for= "Release year"> Release year </label>
+          <input id="release year" type="text" name="release year"/>
+        </li>
+
+  <div class="divide Language_div">
+<li>
+          <label for="Language"> Language </label>
+            <select name="Language">
+              <option value="Tamil"> tamil </option>
+              <option value="English"> english </option>
+            </select>
+          </li>
+      </div><div class="divide ">
+              <li>
+            <label for=" Rating"> Rating </label>
+              <select name="Rating">
+              <option value="1"> 1 </option>
+              <option value="2"> 2 </option>
+              <option value="3"> 3 </option>
+            </select>
+
+          </li>
+        </div>
+          <li>
+            <label for="Thumbnail url"> Thumbnail url </label>
+            <input id="Thumbnail url" type="url"  name="Thumbnail url"/>
+          </li>
+          <li>
+              <label for="Plot"> Plot </label>
+              <textarea name="Plot" rows="6"> </textarea>
+          </li>
+          <li>
+                <label for="Poster url"> Poster url </label>
+                <input id="Poster url" type="url" name="Poster url"/>
+          </li>
+          <li>
+                <label for="Cast"> Cast </cast>
+                <textarea name="Cast" rows="5" > </textarea>
+          </li>
+          <li>
+            <button type="Submit" value="Submit" >save</button>
+          </li>
+        </ul>
+      </form>
+        </body>
+        </html>
